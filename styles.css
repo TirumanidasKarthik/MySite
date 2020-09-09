@@ -1,137 +1,39 @@
-@keyframes bfloat {
-  50%{
-    transform: translateY(-1rem);
-  }
-  75%{
-    transform: translateY(1rem);
-  }
-}
-.back{
-  background-color: grey;
-}
-.h{
-  color : skyblue;
-  background-color: skyblue;
-}
-.title{
-  color: skyblue;
-}
-.c{
-  color:red;
-}
-.dropdown{
-  position:static;
-  display: inline-block;
-  padding-left: 20px;
-}
-.content{
-  display:none;
-  background-color: silver;
-  position: absolute;
-  width: 350px;
 
-}
-.content1{
-  display:none;
-  background-color: #f9f9f9;
-  position: absolute;
-  width: 350px;
-
-}
-.content p {
-  color: blue;
-  display: block;
-  background-color: #f9f9f9;
-}
-.content a {
-  color: blue;
-  display: block;
-  text-decoration: none;
-}
-.header img{
-  height:60px;
-  width:60px;
-  border:1px;
-  border-radius: 50px;
-  padding-top: 5px;
-}
-.gallery{
-  margin : 5px;
-  border : 1px solid black;
-  width:180px;
-  height: 300px;
-  float: left;
-}
-.gallery img{
-  width:100%;
-}
-.gallery:hover {
-  border : 1px solid blue;
-}
-.header{
-  background-color: skyblue;
-}
-.ht{
-  text-align: left;
-  text-decoration:underline;
-}
-.dropdown:hover .content {display: block;}
-.content p:hover {background-color: #ddd;}
-.content a:hover {background-color: #ddd;}
-.line{
-  text-align: center;
-  font-size: 200%;
-}
-.imag img{
-  border:1px solid grey;
-}
-.po h2{
-  min-width:100px;
-  color:skyblue;
-}
-.po button{
-  color:red;
-}
-
-.pa{
-  color : red;
-  width: 300px;
-}
-.vi button{
-  color:red;
-}
-.con{
-  left: 550px;
-  height: 200px;
-  width: 200px;
-  position: absolute;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.con::before{
-  content: "";
-  position: absolute;
-  height: 15px;
-  width: 15px;
-  border-radius: 12px;
-  filter: blur(2px) opacity(0.3);
+.b{
   background-color: black;
 }
-.ball{
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  background-color:red;
-  border-radius: 30px;
-  top:38px;
-  animation: bfloat 1s infinite;
+.hed{
+  position: fixed;
+  background-color: blue;
+  height: 30px;
+  width: 100%;
+  top: 0;
+  border: 2px solid white;
+}
+header button{
+  height: 30px;
+}
+.foot{
+  position: fixed;
+  bottom: 0;
+  left:0;
+  background: grey;
+  height: 50px;
+  width: 100%;
+  text-align: center;
 
 }
-.input{
-  position: absolute;
-  height: 50px;
-  width: auto;
-  left: 100px;
+.About{
+  padding-top: 40px;
+  height: 100px;
+  width: 30%;
+  background-color: green;
+  display: none;
+}
+.drawings img{
+
+  border: solid white 1px;
+}
+.drawings img:hover{
+  border: solid green 1px;
 }

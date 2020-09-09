@@ -1,69 +1,37 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tirumanidas Page</title>
+    <meta name="viewport" content="width=device-width, initial-width=1.0">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script  src="script.js">
+    </script>
+  </head>
+  <body class="b">
+    <header class="hed">
+        <button onclick="home()">Home</button>
+        <button onclick="about()">About</button>
+        <button onclick="projects()">Projects</button>
+        <button onclick="drawing()" >Drawings</button>
+    </header>
+    <div class="About" id="About">
+      <table>
+        <tr>
+          <th>Name</th><td>Tirumanidas Karthik</td>
+        </tr>
+        <tr>
+          <th>Occupation</th><td>Student</td>
+        </tr>
+      </table>
+    </div>
 
-    <html>
-        <head>
-            <title>Tirumanidas's Page</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-            <link rel = "stylesheet" type="text/css" href="styles.css">
-            <script src="script.js"></script>
-        </head>
-              <body class = "back">
-                  <h1><div class = "title">Tirumanidas</div></h1>
-                        <header>
-                            <div class="header">
-                                <img src="drawings/2018-12-19_12-28-57.jpg" >
-                              <div class="dropdown"><div class = "ht"><h3>welcome</h3></div></div>
-                                <div class = "dropdown">
-                                  <button class = "c">contacts</button>
-                                    <div class = "content">
-                                         <a href="">email : karthiktirumanidas@gmail.com</a>
-                                         <a href="">Instagram : TirumanidasKarthik</a>
-                                         <a href="">Facebook : TirumanidasKarthik</a>
-                                    </div>
-                                </div>
-                                <div class = "dropdown">
-                                      <button class = "c">About</button>
-                                      <div class = "content">
+    <footer class="foot">
 
-                                             <a href=""> Name : Tirumanidas Karthik</a>
-                                             <a href=""> D.O.B : 7th April 1999</a>
-                                             <a href="">Status : Student at CMREC</a>
-                                      </div>
-                                </div>
-                                <div class="dropdown">
-                                   <button class="c" onclick="res()">Resume</button>
-                                </div>
-                                <div class = "dropdown">
-                                  <a href="https://github.com/TirumanidasKarthik?tab=repositories" target="_blank"><button class = "c">Projects</button></a>
+      <a href="https://www.instagram.com/tirumanidaskarthik/", target="_blank"><img src="icons/insta_icon.png" alt="" height="20" width="20"></a>
+      <a href="https://twitter.com/tirumanidas/", target="_blank"><img src="icons/twitter_icon.png" alt="" height="20" width="20"></a>
+    </footer>
 
-                                </div>
-                                <div class = "dropdown">
-                                   <button class = "c">Drawings</button>
-                                   <div class = "content">
-                                      <a href = "second.html">Gallery</a>
-                                   </div>
-                                </div>
-
-
-
-                            </div>
-                          </header>
-                      <section>
-                          <div class="con">
-                                <div class="ball">
-                                </div>
-                          </div>
-                    </section>
-                    <section>
-                      <br>
-                      <br>
-                      <br>
-                        <div class= "input">
-                            <p id="par">Can I know your name!!</p><br>
-                            <input type="text" id="u_name" placeholder="name">
-                            <button class = "c" id = "butt" onclick="namef()">submit</button>
-                        </div>
-                  </section>
-
-              </body>
-    </html>
+  </body>
+</html>
