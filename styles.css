@@ -37,3 +37,23 @@ header button{
 .drawings img:hover{
   border: solid green 1px;
 }
+
+
+#first{
+  display: contents;
+}
+#second{
+  display: none;
+}
+#third{
+  display: none;
+}
+#fourth{
+  display: none;
+}
+
+#butbox{
+  height: 150px;
+  width: auto;
+  align: center;
+}
